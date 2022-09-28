@@ -9,7 +9,7 @@ print("Video Game Trivia")
 
 print()
 
-#Question 1
+print("Question 1")
 print("A. The Leviathan")
 print("B. Mjolnir")
 print("C. Godslayer")
@@ -17,7 +17,7 @@ print("D. Bone Reaver")
 
 print()
 
-user_input = input("What is Kratos's axe called")
+user_input = input("What is Kratos's axe called? ")
 
 print()
 
@@ -38,7 +38,7 @@ else:
 
 print()
 
-#Question 2
+print("Question 2")
 print("A. 3 stone, 5 iron")
 print("B. 4 stone, 2 iron")
 print("C. 4 wood, 2 iron")
@@ -46,7 +46,7 @@ print("D. 3 wood, 5 iron")
 
 print()
 
-user_input = input("What materials are needed to make a smithing table in Minecraft")
+user_input = input("What materials are needed to make a smithing table in Minecraft? ")
 
 print()
 
@@ -67,7 +67,7 @@ else:
 
 print()
 
-#Question 3
+print("Question 3")
 print("A. Cursed Captain")
 print("B. Gold Hoarder")
 print("C. Pirate King")
@@ -75,7 +75,7 @@ print("D. Pirate Lord")
 
 print()
 
-user_input = input("What is the name of the final boss in Sea of Thieves, Tall Tales")
+user_input = input("What is the name of the final boss in Sea of Thieves, Tall Tales? ")
 
 print()
 
@@ -96,25 +96,14 @@ else:
 
 print()
 
-#Question 4
-print("A. 8")
-print("B. 10")
-print("C. 12")
-print("D. 15")
+print("Question 4")
+user_input = input("How much boost does a small boost pad give you in Rocket League? ")
 
 print()
 
-user_input = input("How much boost does a small boost pad give you in Rocket League")
-
-print()
-
-if user_input.upper() == "A":
-    x=2
-elif user_input.upper() == "B":
-    x=2
-elif user_input.upper().strip() == "C":
+if user_input.upper() == "12":
     x=1
-elif user_input.upper() == "D":
+else:
     x=2
 
 if x==1:
@@ -125,25 +114,14 @@ else:
 
 print()
 
-#Question 5
-print("A. 5")
-print("B. 10")
-print("C. 15")
-print("D. 20")
+print("Question 5")
+user_input = input("How long does it take for a large boost pad to respawn in Rocket League? ")
 
 print()
 
-user_input = input("How long does it take for a large boost pad to respawn in Rocket League")
-
-print()
-
-if user_input.upper() == "A":
-    x=2
-elif user_input.upper().strip() == "B":
+if user_input.upper() == "10":
     x=1
-elif user_input.upper() == "C":
-    x=2
-elif user_input.upper() == "D":
+else:
     x=2
 
 if x==1:
@@ -154,25 +132,14 @@ else:
 
 print()
 
-#Question 6
-print("A. 3")
-print("B. 5")
-print("C. 7")
-print("D. 10")
+print("Question 6")
+user_input = input("How many generators are needed to open the escape doors in Dead by Daylight? ")
 
 print()
 
-user_input = input("How many generators are needed to open the escape doors in Dead by Daylight")
-
-print()
-
-if user_input.upper() == "A":
-    x=2
-elif user_input.upper().strip() == "B":
+if user_input.upper() == "5":
     x=1
-elif user_input.upper() == "C":
-    x=2
-elif user_input.upper() == "D":
+else:
     x=2
 
 if x==1:
@@ -183,26 +150,15 @@ else:
 
 print()
 
-# Question 7
-print("A. 11")
-print("B. 14")
-print("C. 16")
-print("D. 19")
+print("Question 7")
+user_input = input("How many Call of Duty games are there? ")
 
 print()
 
-user_input = input("How many Call of Duty games are there")
-
-print()
-
-if user_input.upper() == "A":
-    x = 2
-elif user_input.upper() == "B":
-    x = 2
-elif user_input.upper() == "C":
-    x = 2
-elif user_input.upper().strip() == "D":
+if user_input.upper() == "19":
     x = 1
+else:
+    x=2
 
 if x == 1:
     print("Correct")
@@ -212,7 +168,7 @@ else:
 
 print()
 
-# Question 8
+print("Question 8")
 print("A. The Black Lotus")
 print("B. Company of Onyx")
 print("C. Trevor and Kids")
@@ -220,7 +176,7 @@ print("D. The Black Hand")
 
 print()
 
-user_input = input("What is the name of the enemies in Just Cause 4")
+user_input = input("What is the name of the enemies in Just Cause 4? ")
 
 print()
 
@@ -241,7 +197,7 @@ else:
 
 print()
 
-# Question 9
+print("Question 9")
 print("A. 24 Story Levels")
 print("B. 36 Story Levels")
 print("C. 43 Story Levels")
@@ -249,7 +205,7 @@ print("D. 52 Story Levels")
 
 print()
 
-user_input = input("How many levels are there in Lego Star Wars, The Complete Saga")
+user_input = input("How many levels are there in Lego Star Wars, The Complete Saga? ")
 
 print()
 
@@ -270,26 +226,15 @@ else:
 
 print()
 
-# Question 10
-print("A. Spyro")
-print("B. Echo")
-print("C. Whirlwind")
-print("D. Phoenix")
+print("Question 10")
+user_input = input("What is the name of the first dragon introduced in Skylanders? ")
 
 print()
 
-user_input = input("What is the name of the first dragon in Skylanders")
-
-print()
-
-if user_input.upper().strip() == "A":
+if user_input.upper().strip() == "SPYRO":
     x = 1
-elif user_input.upper() == "B":
-    x = 2
-elif user_input.upper() == "C":
-    x = 2
-elif user_input.upper() == "D":
-    x = 2
+else:
+    x=2
 
 if x == 1:
     print("Correct")
@@ -300,3 +245,15 @@ else:
 print()
 
 print("Your score is",z/10*100,"%")
+y=float(z/10*100)
+
+if y<60:
+    print("You failed")
+elif y>=90:
+    print("You got an A")
+elif y<90 and y>=80:
+    print("You got an B")
+elif y<80 and y>=70:
+    print("You got an C")
+elif y<70 and y>=60:
+    print("You got a D")
