@@ -11,7 +11,7 @@ else:
 
  # 2. Make the following program work. (3 mistakes)
 
-x = float(input("Enter a number: "))
+x = int(input("Enter a number: "))
 if x == 3:
     print("You entered 3")
 
@@ -19,7 +19,7 @@ if x == 3:
 #   # 3. Make the following program work. (4 mistakes)
 
 a = input("What is the name of Poe Dameron's Droid? ")
-if a == "BB8":
+if a.upper() == "BB8":
     print("Correct!")
 else:
     print("Incorrect! It is BB8.")
@@ -28,8 +28,8 @@ else:
   # 4. Make the following program work. (4 mistakes)
 
 jedi = input("Name one of the top 3 greatest Jedi.")
-if jedi == "Yoda" or "Luke Skywalker" or "Obi-Wan Kenobi":
-         print("That is correct!")
+if jedi.lower() == "yoda" or jedi.lower() == "luke skywalker" or jedi.lower() == "obi-wan kenobi":
+    print("That is correct!")
 
 
 
@@ -50,5 +50,7 @@ elif user_input.upper() == "B":
     sens = 900
 elif user_input.upper() == "C":
     sens = 0
+else:
+    sens = "Not a choice"
 
 print("Sensitivity: ",sens)
